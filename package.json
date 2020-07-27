@@ -1,9 +1,6 @@
 {
   "author": {
-    "name": "Jofferson Ramirez Tiquez"
-  },
-  "bugs": {
-    "url": "https://github.com/mycure-inc/vue-html-to-paper/issues"
+    "name": "Jofferson Ramirez Tiquez | Refactor by gkandemir"
   },
   "description": "Vue mixin for printing html elements to paper.",
   "devDependencies": {
@@ -18,7 +15,7 @@
     "uglify-loader": "^2.0.0",
     "webpack": "^3.5.4"
   },
-  "homepage": "https://github.com/mycure-inc/vue-html-to-paper#readme",
+  "homepage": "https://github.com/gkandemi/vue-html-print",
   "keywords": [
     "html",
     "printing",
@@ -28,10 +25,10 @@
   ],
   "license": "ISC",
   "main": "dist/index.js",
-  "name": "vue-html-to-paper",
+  "name": "vue-html-print",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mycure-inc/vue-html-to-paper.git"
+    "url": "git+https://github.com/gkandemi/vue-html-print.git"
   },
   "scripts": {
     "build": "npm run build:all",
@@ -42,5 +39,5 @@
     "prebuild:webpack": "rm -rf dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.3.0"
+  "version": "1.3.1"
 }
